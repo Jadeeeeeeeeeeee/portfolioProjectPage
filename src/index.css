@@ -1,0 +1,148 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 98%;
+  width: 98%;
+  background-color: rgb(22, 22, 108);
+}
+
+#root{
+  height: 98vh;
+}
+
+.SideBar{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 13%;
+  max-width: 13%;
+  background-color: gray;
+  font-family: arial, sans-serif;
+}
+
+.SideBarText{
+  position: absolute;
+  left: 1%;
+  top: 7%;
+}
+
+.SideBarOption{
+  list-style: none;
+  font-size: 1.5rem;
+  color: black;
+  font-family: arial,sans-serif;
+  margin-bottom: 0px;
+  width: inherit;
+  padding: 15px;
+}
+
+.SideBarOption:hover{
+  background-color: hsl(0, 0%, 70%);
+}
+
+.SideBar h1{
+  position: absolute;
+  left: 50%;
+  top: -1%;
+  transform: translate(-50%,-0%);
+  font-size: 1.3rem;
+  width: 200px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.ProjectMainDiv{
+  height: 100%;
+  width: 85%;
+  transform: translate(-100%,-0%);
+  border: black solid 0px;
+  margin-left: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.Project{
+  position: relative;
+  background-color: rgb(205, 205, 205);
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 0px;
+  margin-right: 15px;
+}
+
+.Project .Text{
+  position: absolute; 
+  left: 10%;
+  font-family: arial, sans-serif;
+  font-weight: bolder;
+}
+
+.Project a{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.Project .SubText{
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-30%, -10%);
+}
+
+.Project .text{
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-20%, -80%);
+  font-size: 0.7rem;
+}
+
+.Project a{
+  position: absolute;
+  top: 80%;
+  left: 22.5%;
+  transform: translate(-80%,-22.5%);
+}
+
+.Project a button{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-10%);
+  width: 200px;
+  height: 25px;
+  border: black solid 0px;
+  border-radius: 5px;
+  border: black solid 2px;
+  background-color: rgb(205, 205, 205);
+  text-align: center;
+}
+
+.Project a button:hover{
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  transition: 1s;
+}
+
+.Project img{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-55%);
+  height: 200px;
+  width: 200px;
+}
+
