@@ -10,7 +10,7 @@ body{
 }
 
 #root{
-  height: 98vh;
+  height: 100%;
 }
 
 .SideBar{
@@ -101,43 +101,47 @@ a{
   top: 10%;
   left: 30%;
   transform: translate(-30%, -10%);
+  font-family: arial, sans-serif;
 }
 
 .Project .text{
   position: absolute;
-  top: 80%;
-  left: 20%;
-  transform: translate(-20%, -80%);
-  font-size: 0.7rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 25px;
+  width: 200px;
 }
 
 .Project a{
   position: absolute;
-  top: 80%;
-  left: 22.5%;
-  transform: translate(-80%,-22.5%);
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 25px;
+  width: 200px;
 }
 
 .Project a button{
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 50%;
-  transform: translate(-10%);
-  width: 200px;
+  transform: translate(-50%,-50%);
+  width: 100px;
   height: 25px;
-  border: black solid 0px;
+  border: black solid 1px;
   border-radius: 5px;
-  border: black solid 2px;
   background-color: rgb(205, 205, 205);
   text-align: center;
+  font-size: 1rem;
+  transition: 0.3s;
 }
 
 .Project a button:hover{
   cursor: pointer;
-  font-size: 1rem;
-  background-color: rgb(255, 0, 0);
-  color: white;
-  transition: 1s;
+  font-size: 1.1rem;
+  background-color: rgb(126, 126, 126);
+  transition: 0.3s;
 }
 
 .Project img{
